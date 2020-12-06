@@ -2,7 +2,7 @@
 import createCountryList from '../templates/country.hbs';
 import createResultList from '../templates/result.hbs';
 import { error } from '@pnotify/core';
-var debounce = require('lodash.debounce');
+const debounce = require('lodash.debounce');
 
 const countryInputRef = document.querySelector('.input');
 const resultRef = document.querySelector('.js-search');
